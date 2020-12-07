@@ -13,12 +13,12 @@ const fs = require('fs');
 const Language = require('../language');
 const Lang = Language.getString('profile');
 
-Asena.addCommand({pattern: 'kickme', fromMe: true, deleteCommand: false, desc: Lang.KICKME_DESC, onlyGroup: true}, (async (message, match) => {    
+Asena.addCommand({pattern: 'kickme', fromMe: true, desc: Lang.KICKME_DESC, onlyGroup: true}, (async (message, match) => {    
     await message.sendMessage(Lang.KICKME);
     await message.client.groupLeave(message.jid);
 }));
 
-Asena.addCommand({pattern: 'pp', fromMe: true, deleteCommand: false, desc: Lang.PP_DESC}, (async (message, match) => {    
+Asena.addCommand({pattern: 'pp', fromMe: true, desc: Lang.PP_DESC}, (async (message, match) => {    
     if (message.reply_message === false || message.reply_message.image === false) return await message.sendMessage(Lang.NEED_PHOTO);
     
     var load = await message.reply(Lang.PPING);
