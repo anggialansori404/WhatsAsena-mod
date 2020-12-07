@@ -1,9 +1,10 @@
 <div align="center">
   <img src="https://i.hizliresim.com/6Bbj7i.jpg" width="200" height="200">
   <h1>🐺 WhatsAsena</h1>
+  <h3>Remod by @elzeXD</h3>
 </div>
 <p align="center">
-    WhatsAsena project - Makes it easy and fun to use Whatsapp. Also first userbot for Whatsapp
+    WhatsAsena project - Makes it easy and fun to use Whatsapp. Also first userbot for Whatsapp.
     <br>
         Reserved |
         Reserved |
@@ -34,7 +35,7 @@
 ### Simple Method
 [![Run on Repl.it](https://repl.it/badge/github/Quiec/whatsasena)](https://repl.it/@Quiec/whatsasena)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Quiec/WhatsAsena)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/elzeXD/WhatsAsena)
 
 ### The Hard Method
 ```js
