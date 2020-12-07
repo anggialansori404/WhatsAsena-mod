@@ -11,7 +11,7 @@
             "NOT_FOUND": "*Perintah tidak valid.*"
         },
         "_plugin": {
-            "INSTALL_DESC": "Penginstalan plugin.",
+            "INSTALL_DESC": "Instalasi plugin.",
             "NEED_URL": "Harap masukkan URL! Contoh:",
             "INVALID_URL": "```Harap masukkan url yang valid!```",
             "INVALID_PLUGIN": "*❌ Plugin Anda tidak valid!*\n*Kesalahan:*",
