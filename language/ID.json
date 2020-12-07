@@ -67,7 +67,7 @@
             "MUST_TEXT": "```Pesan tidak valid!```"
         },
         "filters": {
-            "FILTER_DESC": "Menambahkan filter. Jika seseorang menulis filter Anda, maka bot akan membalas dengan jawabannya. Jika Anda hanya menulis .filter, maka akan menunjukkan daftar filter Anda.",
+            "FILTER_DESC": "Menambahkan filter. Jika seseorang menulis kata yang ada dalam filter Anda, maka bot akan membalas dengan jawabannya. Jika Anda hanya menulis .filter, maka akan menunjukkan daftar filter Anda.\n*Penggunaan:* ```.filter "(kata)" "(jawaban)"```\n*Contoh:* ```.filter "Assalamualaikum" "Waalaikumsalam"```",
             "NO_FILTER": "*❌ Tidak ada filter dalam obrolan ini!*",
             "FILTERS": "*🔎 Filter Anda dalam obrolan ini::*",
             "NEED_REPLY": "*❌ Silahkan ketik dibalasan!*\n*Contoh:*",
