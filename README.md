@@ -47,11 +47,17 @@ node qr.js
 Atau cara cepat ketik:
 ```bash <(curl -L https://t.ly/qYqy)```
 
-2. Ikuti instruksinya, masukin no WA, 0 ganti +62
-3. Cek kode verifikasi di HP utama, lalu masukin kode verifikasi di Termux
-4. **HARUS CEPAT!!!** Balik ke HP yang WAnya mau dipasang bot, buka Pengaturan -> WA Web, lalu scan QR code yang di Termux. 
+Atau mau lebih cepat lagi? Klik aja disini.
+[![Run on Repl.it](https://repl.it/badge/github/Quiec/whatsasena)](https://repl.it/@Quiec/whatsasena)
+
+2. **HARUS CEPAT!!!** 
+
+Balik ke HP yang WAnya mau dipasang bot, buka Pengaturan -> WA Web, lalu scan QR code yang di Termux. 
+
 ***Kenapa harus cepat? Soalnya nanti kodenya ganti-ganti cepet banget. Bila perlu, dari awal HP udah harus siap di menu WA Web.***
-5. Setelah scan nanti ada kode di Termux, nah copy itu kode mulai dari `ASENA ;;;` sampai kodenya habis, simpan di notes bila perlu
+3. Setelah scan nanti ada kode di Termux, nah copy itu kode mulai dari `ASENA ;;;` sampai kodenya habis, simpan di notes bila perlu.
+
+
 
 
 ### B. Install Bot
