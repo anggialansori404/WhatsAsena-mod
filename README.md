@@ -48,20 +48,18 @@ Atau cara cepat ketik:
 
 2. Ikuti instruksinya, masukin no WA, 0 ganti +62
 3. Cek kode verifikasi di HP utama, lalu masukin kode verifikasi di Termux
-4. **HARUS CEPAT!!!** Balik ke HP yang WAnya mau dipasang bot, buka Pengaturan -> WA Web, lalu scan QR code yang di Termux
-*bila perlu, HP udah harus siap di menu WA Web*
-5. Setelah scan nanti ada kode, nah copy itu kode mulai dari `ASENA ;;;` sampai kodenya habis, simpan di notes bila perlu
+4. **HARUS CEPAT!!! Soalnya nanti kodenya ganti-ganti cepet banget** Balik ke HP yang WAnya mau dipasang bot, buka Pengaturan -> WA Web, lalu scan QR code yang di Termux.
+*Bila perlu, dari awal HP udah harus siap di menu WA Web.*
+5. Setelah scan nanti ada kode di Termux, nah copy itu kode mulai dari `ASENA ;;;` sampai kodenya habis, simpan di notes bila perlu
 
 
 ## B. Install Bot
-# Klik tombol dibawah ini:
+1. Klik tombol dibawah ini:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/elzeXD/WhatsAsena)
-*Kalo gapunya akun heroku, buat dulu,
-Kalo udah punya, rekomendasi di akun baru karena ini rakus makan dyno dan lu pada juga bakal sering make*
-
-Nah `ASENA_SESSIONS` isi dengan kode dari Termux tadi
-Kalo mau bahasa indo, di language isi ID
-Tunggu prosesnya sekesai, Manage App, nyalain dyno, dan silahkan tonton log, kalo berhasil selamat
+2. *Kalo gapunya akun heroku, buat dulu, kalo udah punya, rekomendasi di akun baru karena ini rakus makan dyno dan lu pada juga bakal sering make*
+3. Isi `ASENA_SESSIONS` dengan kode dari Termux tadi
+4. Kalo mau bahasa indo, di `LANGUAGE` isi ID
+5. Tunggu prosesnya sekesai, Manage App, nyalain dyno, dan silahkan tonton log, kalo berhasil selamat anda punya bot!
 
 ### The Hard Method
 ```js
@@ -74,14 +72,14 @@ node bot.js
 ```
 
 ## F.A.Q
-Beberapa pertanyaan yang ssering diajukan:
-### Ini aman kan? Lo pada bisa baca pesan gw kan, ngaku lo!
-Ini open source, kalian semua bisa analisis kodenya, tidak ada kode untuk mata-matain orang. **Kani ga bisa akses akunmu, lagian lo siape? Orang penting ae bukan.**
+Beberapa pertanyaan yang sering diajukan:
+### Ini aman kan? Lo pada bisa baca pesan gw trus mata2in gw kan, ngaku lo!
+Ini open source, semua orang bisa analisis kodenya, tidak ada kode untuk mata-matain orang. **Kani tidak bisa mengakses akun anda, btw sori nih bos, lagian lo siape? Orang penting ae bukan.**
 
 ### Serius? Tapi kata temenku, kalo ada notifikasi WhatsApp Web itu tandanya WA ku disadap/dibobol?
 Kalo lu pada masih menganut itu, yaudah gausah instal, yaelah ribet amat.
-Misal WAmu beneran disadap, buka **Whatsapp> Titik 3> Whatsapp Web> Nah kan ada daftar komputer tuh, keluarin aja semua, tapi yang ada tulisan Bileys jangan, karena itu botnya.**
-Tapi kalo udah terlanjur, balik lagi ke atas, nyari string session, trus atur lagi di heroku.
+Misal WAmu beneran disadap, buka **Whatsapp> Titik 3> Whatsapp Web> Nah kan ada daftar komputer tuh, keluarin aja semua, tapi yang ada tulisan Baileys jangan, karena itu botnya.**
+*Tapi kalo udah terlanjur, yaudah balik lagi ke atas, nyari string session, trus atur lagi di Heroku.*
 
 ### Mantul banget ini, tapi bayar ga?
 **Gak dan gak bakal.** Tapi kalo mau donasi langsung ke pembuatnya aja via [Telegram](https://t.me/fusuf) .
