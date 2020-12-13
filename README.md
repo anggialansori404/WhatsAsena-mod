@@ -57,6 +57,7 @@ Atau cara cepat ketik:
 1. Klik tombol dibawah ini:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/elzeXD/WhatsAsena)
+
 2. *Kalo gapunya akun heroku, buat dulu, kalo udah punya, rekomendasi di akun baru karena ini rakus makan dyno dan lu pada juga bakal sering make*
 3. Isi `ASENA_SESSIONS` dengan kode dari Termux tadi
 4. Kalo mau bahasa indo, di `LANGUAGE` isi ID
