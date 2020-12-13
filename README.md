@@ -65,7 +65,7 @@ Atau mau lebih cepat lagi? Klik tombol di bawah ini, lalu klik Run.
 2. *Kalo gapunya akun heroku, buat dulu, kalo udah punya, rekomendasi di akun baru karena ini rakus makan dyno dan lu pada juga bakal sering make*
 3. Isi `ASENA_SESSIONS` dengan kode dari Termux tadi
 4. Kalo mau bahasa indo, di `LANGUAGE` isi ID
-5. Tunggu prosesnya sekesai, Manage App, nyalain dyno, dan silahkan tonton log, kalo berhasil selamat anda punya bot! Coba tes .alive kalo mau tau hidup apa ngga
+5. Tunggu prosesnya selesai, setelah itu klik Manage App, nyalain dyno, dan silahkan tonton log, kalo berhasil selamat anda punya bot! Coba tes .alive kalo mau tau hidup apa ngga
 
 ## F.A.Q
 Beberapa pertanyaan yang sering diajukan:
