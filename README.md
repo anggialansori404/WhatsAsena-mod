@@ -28,8 +28,9 @@
 ## 🔎 What is WhatsAsena?
 **WhatsAsena,** is a WhatsApp helper bot written by [Yusuf Usta](https://github.com/Quiec). Does not log into your account It is written on WhatsApp Web API.
 
-### Cara Instal
-## A. String Session
+## Cara Instal
+
+### A. String Session
 
 **WAJIB 2 HAPE!**
 1. Buka Termux di HP pembantu, ketik ini berurutan, tunggu selesai command yang satu baru lanjut yang lain
@@ -53,7 +54,7 @@ Atau cara cepat ketik:
 5. Setelah scan nanti ada kode di Termux, nah copy itu kode mulai dari `ASENA ;;;` sampai kodenya habis, simpan di notes bila perlu
 
 
-## B. Install Bot
+### B. Install Bot
 1. Klik tombol dibawah ini:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/elzeXD/WhatsAsena)
@@ -61,7 +62,7 @@ Atau cara cepat ketik:
 2. *Kalo gapunya akun heroku, buat dulu, kalo udah punya, rekomendasi di akun baru karena ini rakus makan dyno dan lu pada juga bakal sering make*
 3. Isi `ASENA_SESSIONS` dengan kode dari Termux tadi
 4. Kalo mau bahasa indo, di `LANGUAGE` isi ID
-5. Tunggu prosesnya sekesai, Manage App, nyalain dyno, dan silahkan tonton log, kalo berhasil selamat anda punya bot!
+5. Tunggu prosesnya sekesai, Manage App, nyalain dyno, dan silahkan tonton log, kalo berhasil selamat anda punya bot! Coba tes .alive kalo mau tau hidup apa ngga
 
 ## F.A.Q
 Beberapa pertanyaan yang sering diajukan:
