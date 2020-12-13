@@ -50,11 +50,7 @@ Atau cara cepat ketik:
 Atau mau lebih cepat lagi? Klik aja disini.
 [![Run on Repl.it](https://repl.it/badge/github/Quiec/whatsasena)](https://repl.it/@Quiec/whatsasena)
 
-2. **HARUS CEPAT!!!** 
-
-Balik ke HP yang WAnya mau dipasang bot, buka Pengaturan -> WA Web, lalu scan QR code yang di Termux. 
-
-***Kenapa harus cepat? Soalnya nanti kodenya ganti-ganti cepet banget. Bila perlu, dari awal HP udah harus siap di menu WA Web.***
+2. **HARUS CEPAT!!!** Balik ke HP yang WAnya mau dipasang bot, buka Pengaturan -> WA Web, lalu scan QR code yang di Termux. ***Kenapa harus cepat? Soalnya nanti kodenya ganti-ganti cepet banget. Bila perlu, dari awal HP udah harus siap di menu WA Web.***
 3. Setelah scan nanti ada kode di Termux, nah copy itu kode mulai dari `ASENA ;;;` sampai kodenya habis, simpan di notes bila perlu.
 
 
