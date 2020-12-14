@@ -135,10 +135,10 @@
             "VIDEO_DESC": "Download video dari YouTube.",
             "NEED_VIDEO": "*Harap masukkan link video!*\n*Contoh:* ```.ripvideo https://www.youtube.com/watch?v=nAFlVm5qeBc```",
             "DOWNLOADING_VIDEO": "```Mendownload video...```",
-            "UPLOADING_VIDEO": "```Mengunpload video...```",
+            "UPLOADING_VIDEO": "```Mengupload video...```",
             "YT_DESC": "Mencari di YouTube.",
             "NEED_WORDS": "```Tolong tuliskan beberapa kata!```",
-            "GETTING_VIDEOS": "```Mengirim video...```",
+            "GETTING_VIDEOS": "```Mencari...```",
             "NOT_FOUND": "*Saya tidak dapat menemukan apa pun :(*",
             "SEARCHING": "*🔎 Mencari ...*",
             "WIKI_DESC": "Mencari di Wikipedia.",
@@ -146,7 +146,7 @@
             "IMG": "Mengupload foto```{}``` number ```{} `..."
         },
         "sticker": {
-            "STICKER_DESC": "Mencurry foto menjadi stiker.",
+            "STICKER_DESC": "Mengubah foto menjadi stiker. Wajib crop kotak, kalo nggak nanti gepeng gambarnya.",
             "NEED_REPLY": "*Balas ke foto atau video!*",
             "DOWNLOADING": "```Sedang mencurry stiker...```"
         },
