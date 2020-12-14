@@ -6,8 +6,8 @@
 <p align="center">
     WhatsAsena project - Makes it easy and fun to use Whatsapp. Also first userbot for Whatsapp.
     <br>
-        Reserved |
-        Reserved |
+        <a href="https://t.me/elzeXD"> My Telegram</a> |
+        <a href="https://elzeXD.github.io">My Website</a> |
         <a href="https://t.me/WHATSASENA">Telegram Channel</a> |
         <a href="https://t.me/AsenaSupport">Telegram Group</a> |
     <br>
@@ -17,46 +17,69 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/fusuf/whatsasena?style=flat-square) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/fusuf/whatsasena?style=flat-square)
 
 ## 📢 Guide
-> [Also for support & help please come our Telegram group.](https://t.me/AsenaSupport)
+> [Untuk bantuan dan dukungan silahkan kunjungi channel Telegram kami.](https://t.me/AsenaSupport)
 
-> [Install Guide/Kurulum Yardımcısı/Qurulum Müavin](https://github.com/Quiec/WhatsAsena/wiki)
+> [Cara Pasang](https://github.com/Quiec/WhatsAsena/wiki)
 
 > [Video Guide](https://www.youtube.com/watch?v=029KmetlKPU)
 
-> [You can translate other languages from Crowdin](https://crowdin.com/project/whatsasena)
+> [Bantu Translate via Crowdin](https://crowdin.com/project/whatsasena)
 
 ## 🔎 What is WhatsAsena?
 **WhatsAsena,** is a WhatsApp helper bot written by [Yusuf Usta](https://github.com/Quiec). Does not log into your account It is written on WhatsApp Web API.
 
-## Setup
-### Very Simple Method
-`We are working on it...`
+## Cara Instal
 
-### Simple Method
+### A. String Session
+
+**WAJIB 2 HAPE!**
+1. Buka Termux di HP pembantu, ketik ini berurutan, tunggu selesai command yang satu baru lanjut yang lain
+```apt update
+apt install nodejs --fix-missing
+pkg install git
+git clone https://github.com/Quiec/WhatsAsena
+cd WhatsAsena
+npm install @adiwajshing/baileys
+npm install chalk
+node qr.js
+```
+
+Atau cara cepat ketik:
+```bash <(curl -L https://t.ly/qYqy)```
+
+Atau mau lebih cepat lagi? Klik tombol di bawah ini, lalu klik Run.
+
 [![Run on Repl.it](https://repl.it/badge/github/Quiec/whatsasena)](https://repl.it/@Quiec/whatsasena)
+
+2. **HARUS CEPAT!!!** Balik ke HP yang WAnya mau dipasang bot, buka Pengaturan -> WA Web, lalu scan QR code yang di Termux. ***Kenapa harus cepat? Soalnya nanti kodenya ganti-ganti cepet banget. Bila perlu, dari awal HP udah harus siap di menu WA Web.***
+3. Setelah scan nanti ada kode di Termux, nah copy itu kode, mulai dari `ASENA ;;;` sampai kodenya habis di tanda `= (sama dengan)`, simpan di notes bila perlu.
+
+
+
+
+### B. Install Bot
+1. Klik tombol dibawah ini:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/elzeXD/WhatsAsena)
 
-### The Hard Method
-```js
-git clone https://github.com/Quiec/WhatsAsena.git
-cd WhatsAsena
-npm i
-# Config.env oluşturun ve düzenleyin. #
-# Config.env create and edit. #
-node bot.js
-```
+2. *Kalo gapunya akun heroku, buat dulu, kalo udah punya, rekomendasi di akun baru karena ini rakus makan dyno dan lu pada juga bakal sering make*
+3. Isi `ASENA_SESSIONS` dengan kode dari Termux tadi
+4. Kalo mau bahasa indo, di `LANGUAGE` isi ID
+5. Tunggu prosesnya selesai, setelah itu klik Manage App, nyalain dyno, dan silahkan tonton log, kalo berhasil selamat anda punya bot! Coba tes .alive kalo mau tau hidup apa ngga
 
 ## F.A.Q
-Answer a few frequently asked questions;
-### Can you read my messages?
-This project is open source so all the codes are clear. Neither less nor more; you can look what you want. **We absolutely do not have access to your accounts.**
+Beberapa pertanyaan yang sering diajukan:
+### Ini aman kan? Lo pada bisa baca pesan gw trus mata2in gw kan, ngaku lo!
+Ini open source, semua orang bisa analisis kodenya, tidak ada kode untuk mata-matain orang. **Kani tidak bisa mengakses akun anda, btw sori nih bos, lagian lo siape? Orang penting ae bukan.**
 
-### What about our security?
-If you are concerned about security, you can install it on your own computer. If you think someone else has captured your data, simply click on **Whatsapp> Three Dots> Whatsapp Web> Logout** from all sessions button.
+### Serius? Tapi kata temenku, kalo ada notifikasi WhatsApp Web itu tandanya WA ku disadap/dibobol?
+Kalo lu pada masih menganut itu, yaudah gausah instal, yaelah ribet amat.
+Misal WAmu beneran disadap, buka **Whatsapp> Titik 3> Whatsapp Web> Nah kan ada daftar komputer tuh, keluarin aja semua, tapi yang ada tulisan Baileys jangan, karena itu botnya.**
+*Tapi kalo udah terlanjur, yaudah balik lagi ke atas, nyari string session, trus atur lagi di Heroku.*
 
-### Is it paid?
-**Of course not.** It will never happen. But you can donate to us. You can reach me via [Telegram](https://t.me/fusuf) .
+### Mantul banget ini, tapi bayar ga?
+**Gak dan gak bakal.** Tapi kalo mau donasi langsung ke pembuatnya aja via [Telegram](https://t.me/fusuf) .
+Kalau mau ke saya juga boleh, via [Saweria](https://saweria.co/elzeXD)
 
 ### • What does Asena mean?
 [Asena](https://tr.wikipedia.org/wiki/Asena), comes from Turkish mythology. According to Turkish mythology, Asena is a she-wolf that plays an important role.
@@ -69,12 +92,13 @@ Absolutely, Asena executives do not accept responsibility.
 By establishing the Asena, you are deemed to have accepted these responsibilities.
 ```
 
-## Geliştiriciler
+## Credit
 
 [![Yusuf Usta](https://github.com/quiec.png?size=100)](https://quiec.tech) | [![Alperen Ç](https://github.com/xacnio.png?size=100)](https://github.com/xacnio)
 ---|---
 [Yusuf Usta](https://t.me/fusuf) | [Alperen Ç](https://t.me/xacnio)
 Base, Development, Idea, Modules |  Bug Fixes, Modules
+Saya cuma remodder.
 
 ## Thanks To
 - [@adiwajshing](https://github.com/adiwajshing) for coded [Baileys](https://github.com/adiwajshing/Baileys) 
